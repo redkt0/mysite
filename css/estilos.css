@@ -1,0 +1,251 @@
+/* comentarios en c.ss para todas las páginas*/
+
+.botonsubir {
+    font-size: 40px;
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    right: o;
+    margin: 5px;
+
+}
+
+/*encabeza y nombre de la empresa*/
+
+header {
+    position: sticky;
+    position:-webkit-sticky;
+    top:0;
+    z-index: 4;
+
+}
+
+header h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgba(0, 111, 175, 0.966);
+    text-align: left;
+    font-size: 1.7em;
+    letter-spacing: 0.3em;
+    word-spacing: 0.16;
+    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-left: 3%;
+    text-decoration: none;
+    margin-top:0px;
+    margin-bottom: 0px;
+    background-color: rgb(238, 238, 238);
+}
+
+
+/*barra de navegación*/
+
+nav {
+    border-color: rgba(0, 111, 175, 0.966);
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgb(238, 238, 238);
+}
+
+i {
+    font-size: 2em; color: rgba(3, 64, 99, 0.966);
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+body {
+    font-size: 14px;
+}
+
+/*section {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}*/
+
+article a {
+    margin: 15px;
+}
+
+section img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.imglinks {
+    margin-top: 4%;
+    width: 80%;
+}
+
+.contactoboton,.volverboton {
+    font-family:'Archivo Narrow', sans-serif; color: rgb(255, 255, 255);
+    background-color: rgba(0, 111, 175, 0.966);
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    border-color: rgba(236, 235, 235, 0.548);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    margin-left: 5%;
+    padding-left: 6px;
+
+
+}
+
+
+/*main styles*/
+
+b {
+    color: rgba(0, 111, 175, 0.966);
+}
+
+h2 {
+    font-family:'Archivo Narrow', sans-serif;
+    color: rgba(0, 111, 175, 0.966);
+    text-align: left;
+    font-style: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+h3 {
+    font-family:'Archivo Narrow', sans-serif;
+    color: rgba(0, 111, 175, 0.966);
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.7em;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+p {
+    font-family:'Archivo Narrow', sans-serif;
+    text-align: left;
+    font-size: 1.3em;
+    line-height: 2.5em;
+    padding-left: 8%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    letter-spacing: 1px;
+}
+
+q {
+    font-family:'Archivo Narrow', sans-serif;
+    color: rgba(0, 111, 175, 0.966);
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 20%;
+    letter-spacing: 1.5px;
+    line-height: 1.5px;
+}
+
+.imgmuestras {
+    width: 100%;
+    /*max-width: 800px;
+    min-width: 100px;*/
+}
+
+
+
+/*footer*/
+
+footer {
+    background-color: rgba(236, 235, 235, 0.548);
+    font-family: 'Archivo Black', sans-serif; color: rgba(0, 111, 175, 0.966);
+    font-weight: bolder;
+    padding-top: 4%;
+    padding-left: 5%;
+    margin-top: 6em;
+    text-align: left;
+    border-top-style: solid;
+    border-color:  rgba(0, 111, 175, 0.966);;
+}
+
+footer div img {
+    width: 45px;
+    margin: 5px
+}
+
+footer div img {
+    width: 50px
+}
+
+footer div {
+    margin-bottom: 2em;
+}
+
+/*contacto correo, móvil, etc*/
+
+address {
+    width: 100%;
+    text-decoration: none;
+    text-align: left;
+    border-color:  rgba(0, 111, 175, 0.966);
+    margin-top: 4%;
+    
+}
+
+address p {
+    font-size: 0.5em; color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+address p b {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+/*formulario*/
+
+.bodyform {
+    text-align: center;
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+}
+
+form textarea {
+    width: 50%;
+}
+
+.botonform {
+    font-family:'Archivo Narrow', sans-serif; color: rgb(255, 255, 255);
+    background-color: rgba(0, 111, 175, 0.966);
+    text-decoration: none;
+    text-align: center;
+}
+
+.celdasform {
+    font-family:'Archivo Narrow', sans-serif; color: rgba(0, 111, 175, 0.966);
+    line-height: 1em;
+    word-spacing: 0.2em;
+    text-indent: 0.1em;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+/*styles for contact-form*/
+
+
+
