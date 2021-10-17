@@ -76,11 +76,13 @@ section img {
     -o-border-radius: 20px;
     margin-top: 15px;
     width: 100%;
+    height: auto;
 }
 
 .imglinks {
     margin-top: 4%;
     width: 80%;
+    height: auto;
 }
 
 .contactoboton,.volverboton {
@@ -156,6 +158,7 @@ q {
 
 .imgmuestras {
     width: 100%;
+    height: auto;
     /*max-width: 800px;
     min-width: 100px;*/
 }
