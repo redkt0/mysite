@@ -154,8 +154,6 @@ q {
 .imgmuestras {
     width: 100%;
     height: auto;
-    /*max-width: 800px;
-    min-width: 100px;*/
 }
 
 
@@ -233,8 +231,3 @@ form textarea {
     font-size: 1.5em;
     width: 100%;
 }
-
-/*styles for contact-form*/
-
-
-
