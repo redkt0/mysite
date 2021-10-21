@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /login.html
+Disallow: /procesarlogin.html
+Disallow: /contacto.html
+
+Allow: multimedios/pdf/
+
+Sitemap: https://redkt0.github.io/mysite/sitemap.xml
