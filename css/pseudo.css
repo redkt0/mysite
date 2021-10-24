@@ -2,7 +2,7 @@
 
 /*pseudo-clases :*/
 
-.contactoboton:hover{
+.contactoboton, .volverboton:hover{
     background-color: rgb(255, 196, 0);
     color: rgba(0, 0, 0, 0.603);
     font: bold;
