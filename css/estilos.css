@@ -80,7 +80,7 @@ section img {
     height: auto;
 }
 
-.contactoboton,.volverboton {
+.contactoboton, .volverboton {
     font-family:'Archivo Narrow', sans-serif; color: rgb(255, 255, 255);
     background-color: rgba(0, 111, 175, 0.966);
     font-size: 1.5em;
